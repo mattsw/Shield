@@ -1,4 +1,4 @@
-﻿namespace Shield.Controllers
+﻿namespace Shield.Web.Controllers
 {
     using System.Web.Mvc;
 

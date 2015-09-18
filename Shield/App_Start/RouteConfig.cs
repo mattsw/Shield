@@ -1,4 +1,4 @@
-﻿namespace Shield
+﻿namespace Shield.Web
 {
     using System.Web.Mvc;
     using System.Web.Routing;
