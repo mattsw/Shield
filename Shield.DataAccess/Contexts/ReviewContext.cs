@@ -6,11 +6,11 @@
 
     public class ReviewContext : DbContext
     {
-        public ReviewContext() : base ("ReviewContext")
+        public ReviewContext() : base("ReviewContext")
         {
         }
 
-        public DbSet<Review> Reviews {get; set;}
+        public DbSet<Review> Reviews { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

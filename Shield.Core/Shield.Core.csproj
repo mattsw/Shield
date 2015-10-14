@@ -40,7 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\ElementalAttribute.cs" />
-    <Compile Include="Models\Review.cs" />
+    <Compile Include="Models\Monster\Ability.cs" />
+    <Compile Include="Models\Monster\Identity.cs" />
+    <Compile Include="Models\Monster\Rating.cs" />
+    <Compile Include="Models\Monster\Review.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
