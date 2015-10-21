@@ -70,3 +70,9 @@ C:\projects\training\Shield\Shield\bin\Antlr3.Runtime.pdb
 C:\projects\training\Shield\Shield\obj\Debug\Shield.Web.csprojResolveAssemblyReference.cache
 C:\projects\training\Shield\Shield\obj\Debug\Shield.dll
 C:\projects\training\Shield\Shield\obj\Debug\Shield.pdb
+C:\projects\training\Shield\Shield\bin\Shield.Core.dll
+C:\projects\training\Shield\Shield\bin\Shield.Service.dll
+C:\projects\training\Shield\Shield\bin\Shield.DataAccess.dll
+C:\projects\training\Shield\Shield\bin\Shield.Core.pdb
+C:\projects\training\Shield\Shield\bin\Shield.Service.pdb
+C:\projects\training\Shield\Shield\bin\Shield.DataAccess.pdb
