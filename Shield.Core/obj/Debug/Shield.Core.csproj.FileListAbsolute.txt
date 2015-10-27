@@ -7,4 +7,3 @@ C:\projects\training\Shield\Shield.Core\bin\Debug\Shield.Core.dll
 C:\projects\training\Shield\Shield.Core\bin\Debug\Shield.Core.pdb
 C:\projects\training\Shield\Shield.Core\obj\Debug\Shield.Core.dll
 C:\projects\training\Shield\Shield.Core\obj\Debug\Shield.Core.pdb
-C:\projects\training\Shield\Shield.Core\obj\Debug\Shield.Core.csprojResolveAssemblyReference.cache

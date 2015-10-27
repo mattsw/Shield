@@ -15,6 +15,16 @@
                 url: '/start',
                 controller: 'startCtrl as vm',
                 templateUrl: 'app/start/start.html'
+            }).
+            state('review', {
+                url: '/review',
+                controller: 'reviewCtrl as vm',
+                templateUrl: 'app/review/review.html',
+                resolve: {
+                    reviewModel: ['reviewDataService', function (reviewDataService) {
+                        return reviewDataService.getReviewModel();
+                    }]
+                }
             });
     }
 })(window.angular);
