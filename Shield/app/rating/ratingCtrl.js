@@ -1,20 +1,20 @@
 ﻿(function (angular) {
     angular.
         module('shieldApp').
-        controller('reviewCtrl', ReviewCtrl);
+        controller('ratingCtrl', RatingCtrl);
 
-    ReviewCtrl.$inject = ['reviewDataService', 'reviewModel'];
+    RatingCtrl.$inject = ['ratingDataService', 'ratingModel'];
 
-    function ReviewCtrl(reviewDataService, reviewModel) {
+    function RatingCtrl(ratingDataService, ratingModel) {
         var vm = this;
         vm.hasProcessed = false;
         vm.processingErrors = [];
-        vm.reviewModel = reviewModel.data;
+        vm.ratingModel = ratingModel.data;
 
-        vm.submitReview = submitReview;
+        vm.submitRating = submitRating;
 
-        function submitReview() {
-            reviewDataService.submitReview(vm.reviewModel).
+        function submitRating() {
+            ratingDataService.submitRating(vm.ratingModel).
                 then(handleSubmitSuccess, handleSubmitError);
 
             function handleSubmitSuccess(response) {

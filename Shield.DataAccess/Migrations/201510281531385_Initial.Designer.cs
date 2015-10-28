@@ -13,7 +13,7 @@ namespace Shield.DataAccess.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201510211528175_Initial"; }
+            get { return "201510281531385_Initial"; }
         }
         
         string IMigrationMetadata.Source

@@ -53,9 +53,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contexts\ReviewContext.cs" />
-    <Compile Include="Migrations\201510211528175_Initial.cs" />
-    <Compile Include="Migrations\201510211528175_Initial.Designer.cs">
-      <DependentUpon>201510211528175_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201510281531385_Initial.cs" />
+    <Compile Include="Migrations\201510281531385_Initial.Designer.cs">
+      <DependentUpon>201510281531385_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,8 +74,8 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201510211528175_Initial.resx">
-      <DependentUpon>201510211528175_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201510281531385_Initial.resx">
+      <DependentUpon>201510281531385_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

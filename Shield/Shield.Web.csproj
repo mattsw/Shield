@@ -126,6 +126,7 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiControllers\RatingsController.cs" />
     <Compile Include="ApiControllers\ReviewsController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -138,9 +139,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\review\review.html" />
-    <Content Include="app\review\reviewCtrl.js" />
-    <Content Include="app\review\services\reviewDataService.js" />
+    <Content Include="app\rating\rating.html" />
+    <Content Include="app\rating\ratingCtrl.js" />
+    <Content Include="app\rating\services\ratingDataService.js" />
     <Content Include="app\shieldApp.js" />
     <Content Include="app\start\start.html" />
     <Content Include="app\start\start.js" />

@@ -6,5 +6,7 @@
     public class ReviewContext : DbContext
     {
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
+        public DbSet<Ability> Abilities { get; set; }
     }
 }

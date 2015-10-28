@@ -16,13 +16,13 @@
                 controller: 'startCtrl as vm',
                 templateUrl: 'app/start/start.html'
             }).
-            state('review', {
-                url: '/review',
-                controller: 'reviewCtrl as vm',
-                templateUrl: 'app/review/review.html',
+            state('rating', {
+                url: '/rating',
+                controller: 'ratingCtrl as vm',
+                templateUrl: 'app/rating/rating.html',
                 resolve: {
-                    reviewModel: ['reviewDataService', function (reviewDataService) {
-                        return reviewDataService.getReviewModel();
+                    ratingModel: ['ratingDataService', function (ratingDataService) {
+                        return ratingDataService.getRatingModel();
                     }]
                 }
             });

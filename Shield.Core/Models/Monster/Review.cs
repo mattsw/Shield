@@ -1,18 +1,12 @@
 ﻿namespace Shield.Core.Models.Monster
 {
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
 
     public class Review
     {
-        #region Constructors
-        public Review()
-        {
-            MonsterIdentity = new Identity();
-            Comments = new List<string>();
-        }
-        #endregion
-
         #region Properties
+        [Key]
         public int ReviewId { get; set; }
         public Identity MonsterIdentity { get; set; }
         public int IdentityId { get; set; }

@@ -3,6 +3,8 @@
     using Enums;
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
     public class Identity
@@ -16,7 +18,8 @@
         #endregion
 
         #region Properties
-        public int Id { get; set; }
+        [Key]
+        public int IdentityId { get; set; }
         public string Name { get; set; }
         public string Type { get; set; }
         public ElementalAttribute Attribute { get; set; }
@@ -32,8 +35,7 @@
                     TowerOfAscension = AverageIfCollectionHasElements(Ratings, item => item.TowerOfAscension),
                     Dungeon = AverageIfCollectionHasElements(Ratings, item => item.Dungeon),
                     GuildDefense = AverageIfCollectionHasElements(Ratings, item => item.GuildDefense),
-                    GuildOffense = AverageIfCollectionHasElements(Ratings, item => item.GuildOffense),
-                    Id = Id
+                    GuildOffense = AverageIfCollectionHasElements(Ratings, item => item.GuildOffense)
                 };
             }
         }
