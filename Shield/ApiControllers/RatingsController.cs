@@ -1,7 +1,7 @@
-﻿namespace Shield.ApiControllers
+﻿namespace Shield.Web.ApiControllers
 {
-    using Core.Models.Monster;
     using System.Web.Http;
+    using Core.Models.Monster;
 
     public class RatingsController : ApiController
     {

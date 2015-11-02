@@ -1,8 +1,8 @@
-﻿namespace Shield.ApiControllers
+﻿namespace Shield.Web.ApiControllers
 {
-    using Service.Data;
-    using Core.Models.Monster;
     using System.Web.Http;
+    using Core.Models.Monster;
+    using Service.Data;
 
     public class ReviewsController : ApiController
     {
