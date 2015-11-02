@@ -3,18 +3,55 @@
     <div>
         <h3>Placeholder Monster ID area</h3>
     </div>
-    <div>
+    <div class="row">
         <!-- placeholder fields until slicker UI implementation -->
-        <input type="text" ng-model="vm.ratingModel.guildOffense"/>
-        <input type="text" ng-model="vm.ratingModel.guildDefense"/>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Guild Offense</label>
+                <input class="form-control" type="text" ng-model="vm.ratingModel.guildOffense" />
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Guild Defense</label>
+                <input class="form-control" type="text" ng-model="vm.ratingModel.guildDefense"/>
+            </div>
+        </div>
     </div>
-    <div>
-        <input type="text" ng-model="vm.ratingModel.arenaDefense"/>
-        <input type="text" ng-model="vm.ratingModel.arenaOffense"/>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Arena Defense</label>
+                <input class="form-control" type="text" ng-model="vm.ratingModel.arenaDefense"/>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Arena Offense</label>
+                <input class="form-control" type="text" ng-model="vm.ratingModel.arenaOffense"/>
+            </div>
+        </div>
     </div>
-    <div>
-        <input type="text" ng-model="vm.ratingModel.dungeon"/>
-        <input type="text" ng-model="vm.ratingModel.towerOfAscension" />
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Dungeon</label>
+                <input class="form-control" type="text" ng-model="vm.ratingModel.dungeon"/>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Tower of Ascension</label>
+                <input class="form-control" type="text" ng-model="vm.ratingModel.towerOfAscension"/>
+            </div>
+        </div>
     </div>
-    <button type="button" ng-click="vm.submitRating()">Test Post!</button>
+    <div class="row">
+        <div class="col-sm-6">
+
+        </div>
+        <div class="col-sm-6">
+            <button class="btn btn-primary pull-right" type="button" ng-click="vm.submitRating()">Test Post!</button>
+        </div>
+    </div>
 </div>
