@@ -2,10 +2,11 @@
 {
     using System.Web.Http;
     using Core.Models.Monster;
+    using Service.Data;
 
     public class RatingsController : ApiController
     {
-        public RatingsController()
+        public RatingsController(IReviewService reviewService)
         {
 
         }

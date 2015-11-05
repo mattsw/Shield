@@ -2,7 +2,6 @@
 {
     using Core.Models.Monster;
     using DataAccess.Contexts;
-    using System;
 
     public interface IReviewService
     {
@@ -12,12 +11,6 @@
     public class ReviewService : IReviewService
     {
         private readonly ReviewContext reviewContext;
-
-        //TODO Wire up dependency injector
-        public ReviewService()
-        {
-            this.reviewContext = new ReviewContext();
-        }
 
         public ReviewService(ReviewContext reviewContext)
         {

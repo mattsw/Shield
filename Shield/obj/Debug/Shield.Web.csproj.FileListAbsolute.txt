@@ -76,3 +76,9 @@ C:\projects\training\Shield\Shield\bin\Shield.DataAccess.pdb
 C:\projects\training\Shield\Shield\obj\Debug\Shield.Web.csprojResolveAssemblyReference.cache
 C:\projects\training\Shield\Shield\obj\Debug\Shield.dll
 C:\projects\training\Shield\Shield\obj\Debug\Shield.pdb
+C:\projects\training\Shield\Shield\bin\Autofac.dll
+C:\projects\training\Shield\Shield\bin\Autofac.Integration.WebApi.dll
+C:\projects\training\Shield\Shield\bin\Autofac.xml
+C:\projects\training\Shield\Shield\bin\Autofac.Integration.WebApi.xml
+C:\projects\training\Shield\Shield\bin\Autofac.Integration.Mvc.dll
+C:\projects\training\Shield\Shield\bin\Autofac.Integration.Mvc.xml

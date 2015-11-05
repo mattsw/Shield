@@ -8,9 +8,9 @@
     {
         private readonly IReviewService reviewService;
         //TODO Wire up a dependency injector
-        public ReviewsController()
+        public ReviewsController(IReviewService reviewService)
         {
-            reviewService = new ReviewService();
+            this.reviewService = reviewService;
         }
 
         public IHttpActionResult Get()
