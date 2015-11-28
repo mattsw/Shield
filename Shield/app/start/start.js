@@ -8,8 +8,7 @@
     function StartCtrl() {
         var vm = this;
 
-        this.helloText = "Try it out today!";
-
-        return vm;
+        vm.helloText = "Try it out today!";
+        
     }
 })(window.angular);

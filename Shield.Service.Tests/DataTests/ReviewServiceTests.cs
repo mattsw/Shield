@@ -1,8 +1,8 @@
 ﻿namespace Shield.Service.Tests.DataTests
 {
-    using System;
     using System.Collections.Generic;
     using System.Data.Entity;
+    using System.Linq;
     using Core.Enums;
     using Core.Models.Monster;
     using Data;
@@ -13,7 +13,6 @@
     [TestFixture]
     public class ReviewServiceTests
     {
-
         [TestFixture]
         public class SaveReview
         {
@@ -24,7 +23,7 @@
                 var mockReviewSet = new Mock<DbSet<Review>>();
                 mockReviewContext.Setup(context => context.Reviews).Returns(mockReviewSet.Object);
                 var reviewService = new ReviewService(mockReviewContext.Object);
-
+                
                 reviewService.SaveReview(new Review()
                 {
                     Comments = new List<string>() { "test", "data"},
