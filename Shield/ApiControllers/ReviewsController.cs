@@ -1,5 +1,6 @@
 ﻿namespace Shield.Web.ApiControllers
 {
+    using System.Data.Entity.Infrastructure;
     using System.Web.Http;
     using Core.Models.Monster;
     using Service.Data;
@@ -21,8 +22,15 @@
         //TODO basic error handling
         public IHttpActionResult Post(Review review)
         {
-            reviewService.SaveReview(review);
-            return Ok(review);
+            try
+            {
+                reviewService.SaveReview(review);
+                return Ok(review);
+            }
+            catch (DbUpdateException)
+            {
+                return BadRequest("Unable to upload user review.");
+            }
         }
     }
 }

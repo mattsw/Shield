@@ -1,14 +1,17 @@
 ﻿namespace Shield.Web.ApiControllers
 {
+    using System.Data.Entity.Infrastructure;
     using System.Web.Http;
     using Core.Models.Monster;
     using Service.Data;
 
     public class RatingsController : ApiController
     {
-        public RatingsController(IReviewService reviewService)
-        {
+        private IRatingService ratingService;
 
+        public RatingsController(IRatingService ratingService)
+        {
+            this.ratingService = ratingService;
         }
 
         public IHttpActionResult Get()
@@ -18,7 +21,15 @@
 
         public IHttpActionResult Post(Rating rating)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                ratingService.SaveRating(rating);
+                return Ok();
+            }
+            catch (DbUpdateException)
+            {
+                return BadRequest("Unable to upload user rating.");
+            }
         }
     }
 }

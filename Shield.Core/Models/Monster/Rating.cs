@@ -1,10 +1,10 @@
 ﻿namespace Shield.Core.Models.Monster
 {
     using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
 
     public class Rating
     {
+        //TODO Consider adding another property to rate the ability to perform the "farmer" role
         #region Properties
         [Key]
         public int RatingId { get; set; }

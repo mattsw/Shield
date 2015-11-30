@@ -20,6 +20,7 @@
         public void SaveReview(Review review)
         {
             reviewContext.Reviews.Add(review);
+            reviewContext.SaveChanges();
         }
     }
 }
