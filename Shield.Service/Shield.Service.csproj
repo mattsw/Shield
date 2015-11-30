@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutofacRegistrar.cs" />
+    <Compile Include="Data\RatingService.cs" />
     <Compile Include="Data\ReviewService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

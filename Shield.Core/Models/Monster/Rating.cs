@@ -8,7 +8,7 @@
         #region Properties
         [Key]
         public int RatingId { get; set; }
-        [Required]
+        [Required]//TODO We may want to just key off the ID and not the identity itself
         public Identity Identity { get; set; }
         public int IdentityId { get; set; }
         public double Dungeon { get; set; }

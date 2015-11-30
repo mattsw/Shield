@@ -8,6 +8,7 @@
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<ReviewService>().As<IReviewService>();
+            builder.RegisterType<RatingService>().As<IRatingService>();
         }
     }
 }
