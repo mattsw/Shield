@@ -28,6 +28,12 @@
                 "~/Scripts/angular-ui-router.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/core").IncludeDirectory("~/app/", "*.js", true));
+
+            var css = new StyleBundle("~/app/css").IncludeDirectory("~/app/", "*.css", true);
+
+            css.Transforms.Add(new CssMinify());
+            bundles.Add(css);
+            bundles.IgnoreList.Clear();
         }
     }
 }

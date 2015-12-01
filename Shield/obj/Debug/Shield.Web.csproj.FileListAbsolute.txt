@@ -38,6 +38,9 @@ C:\projects\training\Shield\Shield\bin\Shield.dll.config
 C:\projects\training\Shield\Shield\bin\Shield.dll
 C:\projects\training\Shield\Shield\bin\Shield.pdb
 C:\projects\training\Shield\Shield\bin\Antlr3.Runtime.dll
+C:\projects\training\Shield\Shield\bin\Autofac.dll
+C:\projects\training\Shield\Shield\bin\Autofac.Integration.Mvc.dll
+C:\projects\training\Shield\Shield\bin\Autofac.Integration.WebApi.dll
 C:\projects\training\Shield\Shield\bin\EntityFramework.dll
 C:\projects\training\Shield\Shield\bin\EntityFramework.SqlServer.dll
 C:\projects\training\Shield\Shield\bin\Microsoft.Web.Infrastructure.dll
@@ -58,6 +61,9 @@ C:\projects\training\Shield\Shield\bin\WebGrease.dll
 C:\projects\training\Shield\Shield\bin\Shield.DataAccess.dll
 C:\projects\training\Shield\Shield\bin\Shield.Core.pdb
 C:\projects\training\Shield\Shield\bin\Shield.Service.pdb
+C:\projects\training\Shield\Shield\bin\Autofac.xml
+C:\projects\training\Shield\Shield\bin\Autofac.Integration.Mvc.xml
+C:\projects\training\Shield\Shield\bin\Autofac.Integration.WebApi.xml
 C:\projects\training\Shield\Shield\bin\EntityFramework.xml
 C:\projects\training\Shield\Shield\bin\EntityFramework.SqlServer.xml
 C:\projects\training\Shield\Shield\bin\Newtonsoft.Json.xml
@@ -76,9 +82,3 @@ C:\projects\training\Shield\Shield\bin\Shield.DataAccess.pdb
 C:\projects\training\Shield\Shield\obj\Debug\Shield.Web.csprojResolveAssemblyReference.cache
 C:\projects\training\Shield\Shield\obj\Debug\Shield.dll
 C:\projects\training\Shield\Shield\obj\Debug\Shield.pdb
-C:\projects\training\Shield\Shield\bin\Autofac.dll
-C:\projects\training\Shield\Shield\bin\Autofac.Integration.WebApi.dll
-C:\projects\training\Shield\Shield\bin\Autofac.xml
-C:\projects\training\Shield\Shield\bin\Autofac.Integration.WebApi.xml
-C:\projects\training\Shield\Shield\bin\Autofac.Integration.Mvc.dll
-C:\projects\training\Shield\Shield\bin\Autofac.Integration.Mvc.xml

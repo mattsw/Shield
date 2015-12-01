@@ -1,3 +1,13 @@
-﻿<div>
-    <h2>{{vm.helloText}}</h2>
+﻿<div class="start">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>{{vm.helloText}}</h2>
+        </div>
+    </div>
+    <div class="row" ng-repeat="headline in vm.news">
+        <div class="col-xs-12">
+            <h3>{{headline.header}}</h3>
+            {{headline.text}}
+        </div>
+    </div>
 </div>

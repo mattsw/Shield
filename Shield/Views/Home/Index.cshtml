@@ -1,14 +1,17 @@
-﻿<div class="row">
-    <div class="col-xs-4">
-        <button class="btn btn-primary" ui-sref="start">Home</button>
+﻿<header>
+    <div class="row">
+        <div class="col-xs-12 col-sm-4">
+            <button class="btn btn-default" ui-sref="start">Home</button>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <button ui-sref="rating" class="btn btn-default">Create Rating</button>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <button ui-sref="search" class="btn btn-default" disabled>Search Placeholder</button>
+        </div>
     </div>
-    <div class="col-xs-4">
-        <button ui-sref="rating" class="btn btn-primary">Create Rating</button>
-    </div>
-    <div class="col-xs-4">
-        <button ui-sref="search" class="btn btn-primary" disabled>Search Placeholder</button>
-    </div>
-</div>
+</header>
+<!-- Main content area -->
 <div ui-view>
     
 </div>
